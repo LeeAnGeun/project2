@@ -7,7 +7,8 @@
 <%
 /* 화이팅 */
 /* 이거 성공하면 대박 */
-/* ㅁㄴㅇㅁㄴㅇ */
+	/* ㅁㄴㅇㅁㄴㅇ */
+	/* ㅇㅁㅈㄴ */
 request.setCharacterEncoding("utf-8");
 int sseq =  Integer.parseInt( request.getParameter("seq") );
 
