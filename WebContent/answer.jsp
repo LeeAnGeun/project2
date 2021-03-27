@@ -9,9 +9,10 @@
 /* 이거 성공하면 대박 */
 	/* ㅁㄴㅇㅁㄴㅇ */
 	/* ㅇㅁㅈㄴ */
+	ㅇㅁ나능ㅁ나의ㅏㄴ믜ㅁㄴㅇ
 request.setCharacterEncoding("utf-8");
-int sseq =  Integer.parseInt( request.getParameter("seq") );
 
+int sseqtwo =  Integer.parseInt( request.getParameter("seq") );
 BbsDto bbs = BbsDao.getInstance().getContent(sseq);
 System.out.println(bbs.toString());
 %>    
