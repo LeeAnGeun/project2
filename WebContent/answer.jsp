@@ -5,6 +5,7 @@
     pageEncoding="UTF-8"%>
     
 <%
+/* 화이팅 */
 request.setCharacterEncoding("utf-8");
 int sseq =  Integer.parseInt( request.getParameter("seq") );
 
